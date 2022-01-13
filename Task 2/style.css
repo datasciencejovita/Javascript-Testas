@@ -1,0 +1,32 @@
+.all{
+    background-color: rgba(201, 236, 181, 0.5)
+}
+
+.wrapper {
+    min-height: 100vh;
+    min-width: calc(100vw - (100vw - 100%));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+  }
+
+#btn {
+  background-color: grey;
+  border-radius: 50px;
+  width: 30%;
+  height: 60px;
+  border-color: yellow;
+  border-width: 5px;
+  font-size: x-large;
+
+}
+
+#total {
+  color: grey;
+  font-size:50px;
+}
+
+ 
+  

@@ -1,0 +1,41 @@
+<!-- ------------------------------ TASK 2 ----------------------------
+Parašykite JS kodą, kuris skaičiuos kiek kartų buvo paspaustas mygtukas
+su tekstu "CLICK ME". Paspaudimų rezultatas turi būti matomas dešinėje
+pusėje esančiame "state" skaičiavimo bloke (<div id="btn__state">0</div>)
+-------------------------------------------------------------------  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>2 Task</title>
+</head>
+
+<body class="all">
+    <div class="wrapper">
+        <button id="btn"><b>Click Me!</b></button>
+        <p class="totalnumber">
+            <span id="total">0</span>
+        </p>  
+    </div>
+
+     <script type="text/javascript">
+        var count = 0;
+        var btn = document.getElementById("btn");
+        var disp = document.getElementById("total");
+        btn.onclick = function () {
+            count++;
+            disp.innerHTML = count;
+            }
+        </script>
+        
+    </body>
+
+    
+</body>
+</html>

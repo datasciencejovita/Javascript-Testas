@@ -1,0 +1,17 @@
+.wrapper{
+    background-color: grey;
+    display:flex;
+    min-height: 100vh;
+    min-width: calc(100vw - (100vw - 100%));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+#btn{
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    border-radius: 5px;
+}
